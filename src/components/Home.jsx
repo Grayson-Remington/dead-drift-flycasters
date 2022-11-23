@@ -5,8 +5,11 @@ export default function Home() {
     <div className="grid md:grid-cols-3 w-full">
         
       <div className="w-full md:col-span-2 p-10">
-      <iframe className="w-full h-96" src="https://www.youtube.com/embed/55ULxYpWnws?controls=0">
-</iframe>
+        <h3 className="text-center m-4 text-3xl">Lastest Video:</h3>
+        <iframe className="w-full h-96" 
+        src="https://www.youtube.com/embed/55ULxYpWnws?controls=0">
+        </iframe>
+        
 
       </div>
       <div className="m-auto pr-10 justify-center items-center text-center">
