@@ -14,7 +14,7 @@ export default function Navbar() {
           Home
         </CustomLink>
         <CustomLink to="/about" className="text-inherit h-full flex items-center p-2 text-center">Meet the Team</CustomLink>
-        <CustomLink to="/about" className="text-inherit h-full flex items-center p-2 text-center">Merchandise</CustomLink>
+        <CustomLink to="/pricing" className="text-inherit h-full flex items-center p-2 text-center">Merchandise</CustomLink>
       </ul>
     
   </nav>
