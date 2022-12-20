@@ -1,9 +1,9 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
-import Pricing from "./components/Pricing";
-import About from "./components/About"
+import Team from "./components/Team";
+import Merchandise from "./components/Merchandise"
 import Home from "./components/Home";
-import { Route, Routes } from "react-router-dom"
+import { Route, Routes, Redirect } from "react-router-dom"
 import Contact from './components/Contact';
 
 
@@ -14,8 +14,8 @@ function App() {
     <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="/about" element={<About />} />      
+        <Route path="/team" element={<Team />} />
+        <Route path="/merchandise" element={<Merchandise />} />      
         </Routes>
     </>
   )
