@@ -3,8 +3,7 @@ import Navbar from "./components/Navbar";
 import Team from "./components/Team";
 import Merchandise from "./components/Merchandise"
 import Home from "./components/Home";
-import { Route, Routes, Redirect } from "react-router-dom"
-import Contact from './components/Contact';
+import { Route, Routes } from "react-router-dom"
 
 
 function App() {
