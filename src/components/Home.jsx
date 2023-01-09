@@ -15,8 +15,8 @@ export default function Home() {
       <div className="m-auto pr-10 justify-center items-center text-center text-3xl">
         <p>Welcome! Dead Drift Flycasters is a team of passionate anglers! They travel around the US exploring various waterways.</p>
       </div>
-      <div className="text-center w-screen"><Footer />
-      </div>
+      <Footer />
+      
     </div>
     )
 }

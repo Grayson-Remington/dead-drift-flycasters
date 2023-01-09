@@ -14,8 +14,7 @@ export default function Team() {
       <div className="Tom">Tom</div>
       <div className="Tom">John</div>
       <div className="Hans">Hans</div>
-      <div className="text-center w-screen"><Footer />
-      </div>
+      <Footer />
     </div>
     )
 }

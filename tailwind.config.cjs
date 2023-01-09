@@ -10,4 +10,7 @@ module.exports = {
     },
   },
   plugins: [],
+  screens: {
+    'sm-max': {'max': '700px'},
+  }
 }
